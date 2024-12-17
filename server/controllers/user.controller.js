@@ -1,7 +1,7 @@
 import { response } from "express";
-import User from "../models/user.js";
+import User from "../models/user.models.js";
 import { createJWT } from "../utils/index.js";
-import Notice from "../models/notification.model.js";
+import Notice from "../models/notification.models.js";
 
 export const registerUser = async (req, res) => {
   try {

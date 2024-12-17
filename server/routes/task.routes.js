@@ -10,8 +10,8 @@ import {
   postTaskActivity,
   trashTask,
   updateTask,
-} from "../controllers/taskController.js";
-import { isAdminRoute, protectRoute } from "../middlewares/authMiddlewave.js";
+} from "../controllers/task.controller.js";
+import { isAdminRoute, protectRoute } from "../middlewares/auth.middleware.js";
 
 const router = express.Router();
 
